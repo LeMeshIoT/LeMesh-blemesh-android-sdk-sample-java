@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="arc_colors_default">
+        <item>#FFCF74</item>
+        <item>#D8EFFD</item>
+        <item>#8DEEEE</item>
+    </array>
+    <declare-styleable name="ArcSeekBar"><attr format="dimension|reference" name="arc_width"/><attr format="float" name="arc_open_angle"/><attr format="float" name="arc_rotate_angle"/><attr format="reference" name="arc_colors"/><attr format="dimension|reference" name="arc_border_width"/><attr format="color|reference" name="arc_border_color"/><attr format="integer|reference" name="arc_max"/><attr format="integer|reference" name="arc_min"/><attr format="integer|reference" name="arc_progress"/><attr format="dimension|reference" name="arc_thumb_width"/><attr format="color|reference" name="arc_thumb_color"/><attr format="dimension|reference" name="arc_thumb_radius"/><attr format="dimension|reference" name="arc_thumb_shadow_radius"/><attr format="color|reference" name="arc_thumb_shadow_color"/><attr format="integer|dimension" name="arc_thumb_mode">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+            <enum name="FILL_STROKE" value="2"/>
+        </attr><attr format="dimension|reference" name="arc_shadow_radius"/></declare-styleable>
+
+    <array name="switch_arr">
+        <item>打开</item>
+        <item>关闭</item>
+    </array>
+</resources>
