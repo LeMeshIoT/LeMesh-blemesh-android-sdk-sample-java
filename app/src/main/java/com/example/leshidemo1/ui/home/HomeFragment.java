@@ -62,7 +62,11 @@ public class HomeFragment extends Fragment {
     }
 
     private void initView() {
-        binding.textVer.setText("ver:" + LeHomeSdk.getBleLeMeshManger().getVersion());
+        if (LeHomeSdk.getBleLeMeshManger() != null) {
+            binding.textVer.setText("ver:" + LeHomeSdk.getBleLeMeshManger().getVersion());
+        } else {
+            Toast.makeText(requireContext(), "未初始化成功", Toast.LENGTH_SHORT).show();
+        }
         binding.addDevice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
